@@ -5,5 +5,8 @@
   "main": "index.html",
   "author": "Alexander P. Floyd Marshall, Soren LLC",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "blendid": "^4.4.3"
+  }
 }
