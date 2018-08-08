@@ -1,0 +1,79 @@
+/* Images */
+.poster-img {
+    margin-left: $space-xl;
+    width: 18vw;
+    height: 20vw;
+ }
+ 
+ .bio-img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: $space-s;
+ }
+ 
+ .testimony-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    display: block;
+    margin: 0px auto;
+    border: 1px solid $brand-green-primary;
+    box-shadow: 2px 2px 2px 2px $brand-gray-light;
+ }
+
+ .text-box-img{
+    margin-left: $space-l;
+ }
+ 
+ .banner-img {
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+ }
+ 
+ /* Audio */
+ audio {
+    @extend .center;
+    padding: $space-s;
+    width: 90%;
+    z-index: 1;
+ }
+ 
+ .playlist {
+    @extend .center;
+    background-color: $brand-gray-light;
+    padding: $space-m;
+    list-style-type: none;
+    width: 80%;
+ }
+ 
+ .playlist li {
+    margin-bottom: $space-s;
+ }
+ 
+ .playlist a {
+    color: $brand-white;
+ }
+ 
+ .playlist a:hover {
+    color: $brand-blue-bright;
+ }
+ 
+ .active a {
+    color: $brand-blue-bright;
+ }
+
+ /* Video */
+ #video-frame {
+    @include media-above($break-medium) {
+       width: 100%;
+       height: 20vw;
+    }
+    @include media-below($break-medium) {
+       width: 100%;
+       height: 40vw;
+    }
+ }
+
+ 

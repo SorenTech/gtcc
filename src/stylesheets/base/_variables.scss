@@ -1,0 +1,30 @@
+/* media-query variables */
+$break-small: 600px;
+$break-medium: 900px;
+$break-large: 1200px;
+
+/* Color Variables */
+$brand-blue-primary: hsl(210, 100%, 24%);
+$brand-blue-bright: hsl(210, 100%, 31%);
+$brand-blue-dark: hsl(210, 100%, 12%);
+$brand-green-primary: hsl(173, 100%, 24%);
+$brand-red-primary: hsl(0, 100%, 31%);
+$brand-brown-light: hsl(30, 34%, 47%);
+$brand-silver: hsl(0, 0%, 75%);
+$brand-gray-light: hsl(0, 0%, 56%);
+$brand-gray-dark: hsl(220, 12%, 29%);
+$brand-black: hsl(220, 12%, 12%);
+$brand-white: hsl(220, 15%, 93%);
+
+/* font-variables */
+$primary-text: 'Lora', serif;
+$header-text: 'Cormorant', serif;
+
+/* Space Variables */
+$space-xxs: 3px;
+$space-xs: 6px;
+$space-s: 9px;
+$space-m: 18px;
+$space-l: 36px;
+$space-xl: 72px;
+$space-default: $space-m;
