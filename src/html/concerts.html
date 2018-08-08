@@ -1,0 +1,35 @@
+{% extends "layouts/application.html" %}
+
+{% block content %}
+{% include "shared/nav-bar.html" %}
+<div id="concert-page-header-banner" class="banner-img">
+    </div>
+    <div id="concert-info" class="container">
+       <h2>Join Us For Our Next Concert</h2>
+       <div id="concert" >
+          <div id="calendar" class="calendar-stack fa-5x">
+             <i class="fa fa-calendar-o"></i>
+             <span class="calendar-day">Dec 7 & 9</span>
+          </div>
+          <div id="concert-text">
+             <h3>Comfort and Joy</h3>
+             <p>December 7, 2018 @ 7:30PM	| St. John the Baptist Church, Westport, MA</p>
+             <p>December 9, 2018 @ 3:00PM	| St. Theresa’s Catholic Church, Tiverton, RI</p>
+             <p>Come and enjoy a collection of Christmas music, both familiar and new! This concert will feature pieces by JS Bach, GF Handel, Ralph Vaughn Williams, Samuel Scheidt, and others. We will sing some familiar carols in unfamiliar settings and showcase a piece by a local composer, Will Ayton (former chair of the music department at Roger Williams University). Our accompanist, Melissa Woolverton, will be joined for this concert by a brass quartet. Keeping our tradition alive, we will invite the audience to join us in singing Handel’s Hallelujah Chorus at the conclusion of the concert. We hope you’ll be there.</p>
+             <p><strong>Tickets:</strong> $12 in advance, $15 at the door. Tickets available from Chorus Members or may be purchased online, at Partner’s Village Store in Westport, or at Coastal Roasters Coffee in Tiverton.</p>
+            <ul class="inline-list">
+                <li class="nav-item"><a href="#">Get Tickets...</a></li>
+             </ul>
+          </div>
+          <div id="concert-poster" class="text-box-image">
+             <img class="poster-img" src="" />
+          </div>
+       </div>
+       <div id="concert-sponsors">
+          <h2>This Concert Sponsored By:</h2>
+          <div class="sponsors">
+          </div>      
+       </div>
+       <a href="past-concerts.html"><h3>See Our Past Concerts...</h3></a>
+    </div>
+{% endblock %}
