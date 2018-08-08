@@ -8,6 +8,6 @@
   "private": false,
   "dependencies": {
     "blendid": "^4.4.3",
-    "normalize.css": "^8.0.0"
+    "normalize-scss": "^7.0.1"
   }
 }
