@@ -1,0 +1,9 @@
+{
+  "name": "gtcc",
+  "version": "0.0.1",
+  "description": "Website for the Greater Tiverton Community Chorus",
+  "main": "index.html",
+  "author": "Alexander P. Floyd Marshall, Soren LLC",
+  "license": "MIT",
+  "private": false
+}
