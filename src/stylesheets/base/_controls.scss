@@ -27,7 +27,7 @@ textarea {
    border: 2px solid $brand-green-primary;
    padding: $space-xs;
    @include media-above($break-medium) {
-      width: 60%;
+      width: 70%;
    }
    @include media-below($break-medium) {
       width: 80%;
