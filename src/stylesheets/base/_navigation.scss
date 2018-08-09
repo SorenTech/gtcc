@@ -3,12 +3,12 @@
     background-color: $brand-red-primary;
     height: 52px;
     width: 100%;
-    margin-bottom: $space-xl;
     padding-top: $space-xs;
     position: fixed;
     z-index: 2;
     @include media-above($break-medium) {
        top: 0;
+       margin-bottom: $space-xl;
     }
     @include media-below($break-medium) {
        bottom: 0;
@@ -17,9 +17,11 @@
  
  .nav-title,
  a.nav-title {
-   margin-top: -9px;
-    margin-left: 18px;
+     margin-left: 18px;
     color: $brand-white;
+    @include media-above($break-medium) {
+      margin-top: -9px;
+    }
     @include media-above($break-small) {
        font-size: 2.5rem;
     }
