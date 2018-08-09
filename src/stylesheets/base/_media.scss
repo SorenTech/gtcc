@@ -1,17 +1,18 @@
 /* Images */
+
 .poster-img {
     margin-left: $space-xl;
     width: 18vw;
     height: 20vw;
- }
- 
- .bio-img {
+}
+
+.bio-img {
     height: 125px;
     float: left;
     margin-right: $space-s;
- }
- 
- .testimony-img {
+}
+
+.testimony-img {
     width: 80px;
     height: 80px;
     border-radius: 80px;
@@ -19,79 +20,79 @@
     margin: 0px auto;
     border: 1px solid $brand-green-primary;
     box-shadow: 2px 2px 2px $brand-gray-light;
- }
+}
 
- .text-box-img{
+.text-box-img {
     margin-left: $space-l;
- }
- 
- .banner-img {
+}
+
+.banner-img {
     height: 50vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
- }
+}
 
- .logo-container {
-     width: 275px;
-     background-color: $brand-gray-light;
-     opacity: 0.85;
-     position: absolute;
-     top: $space-l;
-     left: $space-l;
-     @include media-below($break-small) {
-         display: none;
-     }
- }
+.logo-container {
+    width: 275px;
+    background-color: $brand-gray-light;
+    opacity: 0.85;
+    position: absolute;
+    top: $space-l;
+    left: $space-l;
+    @include media-below($break-small) {
+        display: none;
+    }
+}
 
- .logo-img {
+.logo-img {
     @extend .center;
     width: 90%;
     margin: 5%;
- }
- 
- /* Audio */
- audio {
+}
+
+/* Audio */
+
+audio {
     @extend .center;
     padding: $space-s;
     width: 90%;
     z-index: 1;
- }
- 
- .playlist {
+}
+
+.playlist {
     @extend .center;
     background-color: $brand-gray-light;
     padding: $space-m;
     list-style-type: none;
     width: 80%;
- }
- 
- .playlist li {
-    margin-bottom: $space-s;
- }
- 
- .playlist a {
-    color: $brand-white;
- }
- 
- .playlist a:hover {
-    color: $brand-blue-bright;
- }
- 
- .active a {
-    color: $brand-blue-bright;
- }
+}
 
- /* Video */
- #video-frame {
+.playlist li {
+    margin-bottom: $space-s;
+}
+
+.playlist a {
+    color: $brand-white;
+}
+
+.playlist a:hover {
+    color: $brand-blue-bright;
+}
+
+.active a {
+    color: $brand-blue-bright;
+}
+
+/* Video */
+
+#video-frame {
     @include media-above($break-medium) {
-       width: 100%;
-       height: 20vw;
+        width: 100%;
+        height: 20vw;
     }
     @include media-below($break-medium) {
-       width: 100%;
-       height: 40vw;
+        width: 100%;
+        height: 40vw;
     }
- }
-
- 
+}

@@ -1,12 +1,11 @@
-{% extends "layouts/application.html" %}
-
-{% block content %}
-<div id="front-page-header-banner" class="banner-img" style="background-image: url(images/concert-1.jpg);" >
+{% extends "layouts/application.html" %} {% block content %}
+<div id="front-page-header-banner" class="banner-img" style="background-image: url(images/concert-1.jpg);">
   <div class="logo-container">
-    <img class="logo-img" title="The Greater Tiverton Community Chorus" alt="The Greater Tiverton Community Chorus" src="../images/gtcc-logo_web.png" />
+    <img class="logo-img" title="The Greater Tiverton Community Chorus" alt="The Greater Tiverton Community Chorus" src="../images/gtcc-logo_web.png"
+    />
   </div>
- </div>
- <nav id="home-nav">
+</div>
+<nav id="home-nav">
   <div class="nav-bar">
     <h2 class="nav-title mobile-only">The Greater Tiverton Community Chorus</h2>
     <div class="upper-button">
@@ -16,76 +15,106 @@
       <a id="join-button" style="padding: 15px 35px 12px 35px" class="btn btn-nav-circle lower-circle" href="join.html">Join</a>
     </div>
   </div>
- </nav>
- <div id="listen" class="container">
-    <div id="concert" class="text-box">
-       <div id="calendar" class="calendar-stack fa-5x">
-          <i class="fa fa-calendar-o"></i>
-          <span class="calendar-day">Dec 7 & 9</span>
-       </div>
-       <div id="concert-description" class="text-box-main">
-          <h2>Winter Concert</h2>
-          <p>Comfort and Joy: Bach, Handel, and more</p>
-         <ul class="inline-list">
-             <li class="nav-item"><a href="concerts.html">Learn More...</a></li>
-             <li class="nav-item"><a href="#">Get Tickets...</a></li>
-          </ul>
-       </div>
-       <!--
+</nav>
+<div id="listen" class="container">
+  <div id="concert" class="text-box">
+    <div id="calendar" class="calendar-stack fa-5x">
+      <i class="fa fa-calendar-o"></i>
+      <span class="calendar-day">Dec 7 & 9</span>
+    </div>
+    <div id="concert-description" class="text-box-main">
+      <h2>Winter Concert</h2>
+      <p>Comfort and Joy: Bach, Handel, and more</p>
+      <ul class="inline-list">
+        <li class="nav-item">
+          <a href="concerts.html">Learn More...</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Get Tickets...</a>
+        </li>
+      </ul>
+    </div>
+    <!--
        <div id="concert-poster" class="text-box-img">
           <img class="poster-img" src="" />
        </div>
        -->
-    </div>
-    <div id="listen-secondary" class="split-column">
+  </div>
+  <div id="listen-secondary" class="split-column">
     <div id="bios" class="left-column">
-       <div id="beth-bio-short" class="short-bio">
-          <h3>Beth Armostrong, Director</h3>
-          <img src="../images/Beth_web.png" title="Beth Armstrong" alt="Beth Armstrong, Director of the Greater Tiverton Community Chorus" class="bio-img"/>
-          <p>Beth Armstrong has taught at Roger Williams University, chaired the choral department at the Music School of the Rhode Island Philharmonic, and coordinated both the Junior Providence Singers and the JPS Treble Chorus. She is a graduate of Tufts University and pursued a master’s degree in Music Education from the University of New Hampshire.</p>
-          <ul class="inline-list">
-             <li class="nav-item"><a href="#">More...</a></li>
-             <li class="nav-item"><a href="mailto:betharmstrong1960@gmail.com">Contact Beth...</a></li>
-          </ul>
-       </div>
-       <div id="melissa-bio-short" class="short-bio">
-          <h3>Melissa Woolverton, Accompanist</h3>
-          <img src="../images/melissa_headshot_web.png" title="Melissa Woolverton" alt="Melissa Woolverton, Accompanist for the Greater Tiverton Community Chorus" class="bio-img"/>
-          <p>Melissa Woolverton was born and raised in Manitoba, Canada and at the age of three began studying classical piano at the Royal Conservatory of Music, Canada. She graduated summa cum laude from Northern State University in Aberdeen, South Dakota with a piano, voice, and theater emphasis.</p>
-          <ul class="inline-list">
-             <li class="nav-item"><a href="#">More...</a></li>
-             <li class="nav-item"><a href="mailto:melissa@melissawoolverton.com">Contact Melissa...</a></li>
-          </ul>      
-       </div>
-    </div>
-    <div id="audio-video" class="right-column">
-       <div id="video">
-          <iframe id="video-frame" src="https://www.youtube.com/embed/g1117SoaPmg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-       </div>
-       <div id="audio">
-          <audio controls>
-              <source src="" type="">
-           </audio>
-           <ul class="playlist">
-              <li class="active"><a href="">“America” (from <i>West Side Story</i>)</a></li>
-              <li><a href="">"You Will Be Found" (from <i>Dear Evan Hansen</i>)</a></li>
-           </ul>
-       </div>
-    </div>
-    </div>
- </div>
- <div id="about" class="container">
-    <div class="text-container">
-       <p class="center-text">We are a group of choral enthusiasts from Tiverton, Little Compton, Westport, Fall River, Aquidneck Island, and beyond. We gather to sing, promote choral music throughout our communities, and engage in community service. Since our first concert in December of 1980 we have been led by five wonderful directors, involved countless members, and performed almost 150 concerts. We hope you’ll consider joining us, whether to listen or to sing along!</p>
-    </div>
- </div>
- <div id="testimony-container" class="container">
-    <img id="testimony-img" class="testimony-img" title="Suzanne Rosevear" alt="Suzanne Rosevear, Chorus President" src="../images/suzanne_web.jpg" />
-    <div id="testimony-inner" class="text-box">
-      <div class="text-container">
-       <p class="center-text">“We all love to sing, but the chorus is about more than singing.  It is a group of wonderful people, a way to give back to our community. It’s a family of like minded, kind hearted, talented people."</p>
-       <p class="center-text">-Suzanne Rosevear, Chorus President</p>
+      <div id="beth-bio-short" class="short-bio">
+        <h3>Beth Armostrong, Director</h3>
+        <img src="../images/Beth_web.png" title="Beth Armstrong" alt="Beth Armstrong, Director of the Greater Tiverton Community Chorus"
+          class="bio-img" />
+        <p>Beth Armstrong has taught at Roger Williams University, chaired the choral department at the Music School of the
+          Rhode Island Philharmonic, and coordinated both the Junior Providence Singers and the JPS Treble Chorus. She is
+          a graduate of Tufts University and pursued a master’s degree in Music Education from the University of New Hampshire.</p>
+        <ul class="inline-list">
+          <li class="nav-item">
+            <a href="#">More...</a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:betharmstrong1960@gmail.com">Contact Beth...</a>
+          </li>
+        </ul>
+      </div>
+      <div id="melissa-bio-short" class="short-bio">
+        <h3>Melissa Woolverton, Accompanist</h3>
+        <img src="../images/melissa_headshot_web.png" title="Melissa Woolverton" alt="Melissa Woolverton, Accompanist for the Greater Tiverton Community Chorus"
+          class="bio-img" />
+        <p>Melissa Woolverton was born and raised in Manitoba, Canada and at the age of three began studying classical piano
+          at the Royal Conservatory of Music, Canada. She graduated summa cum laude from Northern State University in Aberdeen,
+          South Dakota with a piano, voice, and theater emphasis.</p>
+        <ul class="inline-list">
+          <li class="nav-item">
+            <a href="#">More...</a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:melissa@melissawoolverton.com">Contact Melissa...</a>
+          </li>
+        </ul>
       </div>
     </div>
- </div>
+    <div id="audio-video" class="right-column">
+      <div id="video">
+        <iframe id="video-frame" src="https://www.youtube.com/embed/g1117SoaPmg" frameborder="0" allow="autoplay; encrypted-media"
+          allowfullscreen></iframe>
+      </div>
+      <div id="audio">
+        <audio controls>
+          <source src="" type="">
+        </audio>
+        <ul class="playlist">
+          <li class="active">
+            <a href="">“America” (from
+              <i>West Side Story</i>)</a>
+          </li>
+          <li>
+            <a href="">"You Will Be Found" (from
+              <i>Dear Evan Hansen</i>)</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="about" class="container">
+  <div class="text-container">
+    <p class="center-text">We are a group of choral enthusiasts from Tiverton, Little Compton, Westport, Fall River, Aquidneck Island, and beyond.
+      We gather to sing, promote choral music throughout our communities, and engage in community service. Since our first
+      concert in December of 1980 we have been led by five wonderful directors, involved countless members, and performed
+      almost 150 concerts. We hope you’ll consider joining us, whether to listen or to sing along!</p>
+  </div>
+</div>
+<div id="testimony-container" class="container">
+  <img id="testimony-img" class="testimony-img" title="Suzanne Rosevear" alt="Suzanne Rosevear, Chorus President" src="../images/suzanne_web.jpg"
+  />
+  <div id="testimony-inner" class="text-box">
+    <div class="text-container">
+      <p class="center-text">“We all love to sing, but the chorus is about more than singing. It is a group of wonderful people, a way to give back
+        to our community. It’s a family of like minded, kind hearted, talented people."</p>
+      <p class="center-text">-Suzanne Rosevear, Chorus President</p>
+    </div>
+  </div>
+</div>
 {% endblock %}

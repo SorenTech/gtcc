@@ -14,7 +14,12 @@ body {
   color: $brand-black;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $header-text;
   line-height: 2.7rem;
 }
@@ -65,11 +70,13 @@ a:hover {
 }
 
 /* Utilities */
+
 .center-text {
   text-align: center;
 }
 
 /* Special Classes */
+
 .footer-text,
 #credits {
   font-size: 1.25rem;

@@ -1,11 +1,12 @@
 /* Buttons */
+
 .btn,
 a.btn {
-   background-color: $brand-blue-primary;
-   color: $brand-white;
-   padding: $space-s;
-   border: 2px solid $brand-green-primary;
-   box-shadow: 2px 2px 2px $brand-gray-light;
+    background-color: $brand-blue-primary;
+    color: $brand-white;
+    padding: $space-s;
+    border: 2px solid $brand-green-primary;
+    box-shadow: 2px 2px 2px $brand-gray-light;
 }
 
 .btn:hover,
@@ -14,43 +15,44 @@ a.btn:hover,
 a.btn:active,
 .btn-active,
 a.btn-active {
-   background-color: $brand-blue-bright;
+    background-color: $brand-blue-bright;
 }
 
 /* Form Controls */
+
 input,
 textarea {
-   float: right;
-   font-size: 1.4rem;
-   color: $brand-gray-light;
-   background-color: $brand-white;
-   margin-top: $space-s;
-   border: 2px solid $brand-green-primary;
-   padding: $space-xs;
-   @include media-above($break-medium) {
-      width: 70%;
-   }
-   @include media-below($break-medium) {
-      width: 80%;
-   }
+    float: right;
+    font-size: 1.4rem;
+    color: $brand-gray-light;
+    background-color: $brand-white;
+    margin-top: $space-s;
+    border: 2px solid $brand-green-primary;
+    padding: $space-xs;
+    @include media-above($break-medium) {
+        width: 70%;
+    }
+    @include media-below($break-medium) {
+        width: 80%;
+    }
 }
 
 textarea {
-   height: $space-xl;
+    height: $space-xl;
 }
 
 input:focus {
-   border: 2px solid $brand-blue-primary;
+    border: 2px solid $brand-blue-primary;
 }
 
 input#submit {
-   background-color: $brand-blue-dark;
-   padding: $space-s;
-   color: $brand-white;
-   font-size: 1.6rem;
-   width: 40%;
+    background-color: $brand-blue-dark;
+    padding: $space-s;
+    color: $brand-white;
+    font-size: 1.6rem;
+    width: 40%;
 }
 
 input#submit:hover {
-   border: 2px solid $brand-blue-primary;
+    border: 2px solid $brand-blue-primary;
 }

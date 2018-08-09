@@ -1,123 +1,126 @@
 /* Layout */
+
 /* Utilities */
+
 .container {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: $space-l;
     padding-bottom: $space-l;
- }
- 
- .center {
+}
+
+.center {
     margin-left: auto;
     margin-right: auto;
- }
- 
- .text-container {
+}
+
+.text-container {
     @extend .container;
     @extend .center;
     max-width: 696px;
- }
- 
- .text-box {
+}
+
+.text-box {
     width: 96%;
     padding: $space-default;
     border: 1px solid $brand-green-primary;
- }
+}
 
- .text-box-main {
+.text-box-main {
     padding: $space-default;
- }
+}
 
- .split-column {
+.split-column {
     padding-top: $space-l;
     width: 100%;
     @include media-above($break-medium) {
-       display: inline-flex;
-  }
-    @include media-below($break-medium) {
-       display: inline-block;
-    }
- }
- 
- .left-column {
-    @include media-above($break-medium) {
-       width: 45%;
-       margin-right: 5%;
+        display: inline-flex;
     }
     @include media-below($break-medium) {
-       width: 90%;
+        display: inline-block;
     }
- }
- 
- .right-column {
-    @include media-above($break-medium) {
-       width: 45%;
-       margin-left: 5%;
-    }
-    @include media-below($break-medium) {
-       width: 90%;
-    }
- }
+}
 
- .mobile-only {
+.left-column {
     @include media-above($break-medium) {
-       display: none;
+        width: 45%;
+        margin-right: 5%;
     }
- }
- 
+    @include media-below($break-medium) {
+        width: 90%;
+    }
+}
+
+.right-column {
+    @include media-above($break-medium) {
+        width: 45%;
+        margin-left: 5%;
+    }
+    @include media-below($break-medium) {
+        width: 90%;
+    }
+}
+
+.mobile-only {
+    @include media-above($break-medium) {
+        display: none;
+    }
+}
+
 /* Footer */
- footer {
+
+footer {
     background-color: $brand-blue-dark;
     color: $brand-white;
     padding-top: $space-default;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: $space-m;
- }
- 
- #footer-main {
+}
+
+#footer-main {
     margin-bottom: $space-l;
     @include media-above($break-medium) {
-       display: inline-flex;
+        display: inline-flex;
     }
     @include media-below($break-medium) {
-       display: inline-block;
+        display: inline-block;
     }
- }
- 
- #sponsors-main {
+}
+
+#sponsors-main {
     margin-right: $space-m;
- }
- 
- .sponsors {
+}
+
+.sponsors {
     display: inline-flex;
- }
- 
- #credits {
+}
+
+#credits {
     margin-top: $space-xl;
- }
- 
- /* Calendar icons */
- .calendar-stack {
+}
+
+/* Calendar icons */
+
+.calendar-stack {
     position: relative;
     display: inline-block;
     width: (13em / 14);
     height: 1em;
     margin: $space-m;
- }
- 
- .fa-calendar-o,
- .calendar-day {
+}
+
+.fa-calendar-o,
+.calendar-day {
     position: absolute;
- }
- 
- .calendar-day {
-     top: (18em / 8);
-     left: (8em / 8);
-     width: (19em / 8);
-     height: (7em / 8);
-     line-height: (14em / 14);
-     text-align: center;
-     font-size: 1.8rem;
- }
- 
+}
+
+.calendar-day {
+    top: (18em / 8);
+    left: (8em / 8);
+    width: (19em / 8);
+    height: (7em / 8);
+    line-height: (14em / 14);
+    text-align: center;
+    font-size: 1.8rem;
+}

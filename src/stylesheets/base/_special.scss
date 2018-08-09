@@ -1,39 +1,40 @@
 /* home page */
+
 #concert {
     @include media-above($break-medium) {
-       display: inline-flex;
+        display: inline-flex;
     }
     @include media-below($break-medium) {
-       display: inline-block;
+        display: inline-block;
     }
- }
+}
 
- #audio,
- #video {
-     margin-top: $space-l;
- }
- 
+#audio,
+#video {
+    margin-top: $space-l;
+}
+
 #about {
     background-color: $brand-red-primary;
     color: $brand-white;
- }
- 
- #testimony-container {
+}
+
+#testimony-container {
     position: relative;
- }
- 
- #testimony-inner {
+}
+
+#testimony-inner {
     margin-top: -30px;
     z-index: 1;
     padding-top: $space-s + 30;
- }
- 
- #testimony-img {
+}
+
+#testimony-img {
     z-index: 2;
- }
- 
- /* Concerts Page */
- #concert-text {
+}
+
+/* Concerts Page */
+
+#concert-text {
     padding-left: 10%;
- }
- 
+}

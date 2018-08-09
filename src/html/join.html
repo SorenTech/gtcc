@@ -1,25 +1,33 @@
-{% extends "layouts/application.html" %}
-
-{% block content %}
-{% include "shared/nav-bar.html" %}
-<div id="concert-page-header-banner" class="banner-img" style="background-image: url(images/rehearsal_web.jpg)" >
+{% extends "layouts/application.html" %} {% block content %} {% include "shared/nav-bar.html" %}
+<div id="concert-page-header-banner" class="banner-img" style="background-image: url(images/rehearsal_web.jpg)">
+</div>
+<div id="membership-info" class="text-container">
+    <h2>Would You Like to Sing With Us?</h2>
+    <h3>How to Join:</h3>
+    <p>We meet for two semesters each year. Our fall semester begins in September and culminates with a Holiday Concert in December.
+        Our spring semester begins in January and culminates with a Spring Concert in May. Rehearsals are held every Thursday
+        evening from 7:00pm-9:15pm at Amicable Church (3736 Main Road, Tiverton, RI).</p>
+    <p>The first three weeks of each semester are “open sings” in which visitors are welcome. If you wish to join, simply stop
+        by for any or all of those rehearsals. If at the end of the open sing period you wish to join us permanently, we
+        will ask you to contribute to the Chorus by paying dues ($65/semester or $120 for the full year, students receive
+        a 50% discount). You’ll also be invited to a “Newcomer’s Party” to help you get to know everyone.</p>
+    <div id="schedules" class="split-column">
+        <div class="left-column">
+            <h3>Rehearsal Schedule</h3>
+        </div>
+        <div class="right-column">
+            <h3>Next Open Sings</h3>
+        </div>
     </div>
-    <div id="membership-info" class="text-container">
-       <h2>Would You Like to Sing With Us?</h2>
-          <h3>How to Join:</h3>
-          <p>We meet for two semesters each year. Our fall semester begins in September and culminates with a Holiday Concert in December. Our spring semester begins in January and culminates with a Spring Concert in May. Rehearsals are held every Thursday evening from 7:00pm-9:15pm at Amicable Church (3736 Main Road, Tiverton, RI).</p>
-             <p>The first three weeks of each semester are “open sings” in which visitors are welcome. If you wish to join, simply stop by for any or all of those rehearsals. If at the end of the open sing period you wish to join us permanently, we will ask you to contribute to the Chorus by paying dues ($65/semester or $120 for the full year, students receive a 50% discount). You’ll also be invited to a “Newcomer’s Party” to help you get to know everyone.</p>
-       <div id="schedules" class="split-column">
-          <div class="left-column">
-             <h3>Rehearsal Schedule</h3>
-          </div>
-          <div class="right-column">
-             <h3>Next Open Sings</h3>
-          </div>
-       </div>
-       <h3>What It Means to Be Part of GTCC:</h3>
-       <p>The Greater Tiverton Community Chorus is proud to give back in many ways to the communities in which we live, work, and sing.  Community service has long been a hallmark of the chorus.</p>
-       <p>Chorus concerts have raised money for: The liver transplant of a two-year old boy; A special wheelchair for the son of a chorus member; The Wish Come True Foundation of Newport County; the Women’s Resource Center which supports battered women; Hospice Outreach; Keyboards for Kids; the Westport River Watershed Alliance; and the Nature Conservancy of Tiverton.</p>
-       <a href="past-concerts.html"><h4>Past Concerts and Community Outreach Efforts...</h4></a>
-    </div>
+    <h3>What It Means to Be Part of GTCC:</h3>
+    <p>The Greater Tiverton Community Chorus is proud to give back in many ways to the communities in which we live, work, and
+        sing. Community service has long been a hallmark of the chorus.</p>
+    <p>Chorus concerts have raised money for: The liver transplant of a two-year old boy; A special wheelchair for the son of
+        a chorus member; The Wish Come True Foundation of Newport County; the Women’s Resource Center which supports battered
+        women; Hospice Outreach; Keyboards for Kids; the Westport River Watershed Alliance; and the Nature Conservancy of
+        Tiverton.</p>
+    <a href="past-concerts.html">
+        <h4>Past Concerts and Community Outreach Efforts...</h4>
+    </a>
+</div>
 {% endblock %}
