@@ -4,7 +4,8 @@ a.btn {
    background-color: $brand-blue-primary;
    color: $brand-white;
    padding: $space-s;
-   border: 3px solid $brand-green-primary;
+   border: 2px solid $brand-green-primary;
+   box-shadow: 2px 2px 2px $brand-gray-light;
 }
 
 .btn:hover,
