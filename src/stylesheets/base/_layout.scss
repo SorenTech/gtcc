@@ -22,12 +22,12 @@
 
 .text-box {
     width: 96%;
-    padding: $space-default;
+    padding: $space-xs $space-m $space-xs $space-m;
     border: 1px solid $brand-green-primary;
 }
 
 .text-box-main {
-    padding: $space-default;
+    padding: $space-s;
 }
 
 .split-column {
@@ -108,6 +108,7 @@ footer {
     width: (13em / 14);
     height: 1em;
     margin: $space-m;
+    margin-top: $space-l;
 }
 
 .fa-calendar-o,
