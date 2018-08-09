@@ -79,11 +79,11 @@
    border-bottom-right-radius: 120px;
  }
 
- #home-nav {
-  @extend .center;
+ #home-nav>.nav-bar {
   @include media-above($break-medium) {
      position: relative;
-     background-color: white;
+     background-color: transparent;
+     margin-top: -58px;
      margin-bottom: $space-xl;
   }
 }
