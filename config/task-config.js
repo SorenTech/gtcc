@@ -25,5 +25,9 @@ module.exports = {
 
   production: {
     rev: true
+  },
+
+  images: {
+    extensions: ["jpg", "png", "svg", "gif", "mp3"]
   }
 }
