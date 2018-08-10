@@ -9,7 +9,6 @@
   z-index: 2;
   @include media-above($break-medium) {
     top: 0;
-    margin-bottom: $space-xl;
   }
   @include media-below($break-medium) {
     bottom: 0;
@@ -18,9 +17,9 @@
 
 .nav-title,
 a.nav-title {
-  margin-left: 18px;
   color: $brand-white;
   @include media-above($break-medium) {
+    margin-left: $space-m;
     margin-top: -9px;
   }
   @include media-above($break-small) {
@@ -80,6 +79,22 @@ a.upper-circle {
 a.lower-circle {
   border-bottom-left-radius: 120px;
   border-bottom-right-radius: 120px;
+}
+
+#social-buttons {
+  @include media-above($break-medium) {
+    position: absolute;
+    top: $space-m;
+    right: $space-m;
+  }
+  @include media-below($break-medium) {
+    display: none;
+  }
+}
+  
+
+.navbar-link {
+  padding: $space-s;
 }
 
 #home-nav>.nav-bar {

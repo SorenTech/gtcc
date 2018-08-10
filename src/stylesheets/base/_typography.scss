@@ -77,11 +77,14 @@ a:hover {
 
 /* Special Classes */
 
+footer,
+.footer-link,
+.navbar-link,
+#credits>a {
+  color: $brand-white;
+}
+
 .footer-text,
 #credits {
   font-size: 1.25rem;
-}
-
-#credits>a {
-  color: $brand-white;
 }
