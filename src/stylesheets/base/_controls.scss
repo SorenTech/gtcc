@@ -56,3 +56,33 @@ input#submit {
 input#submit:hover {
     border: 2px solid $brand-blue-primary;
 }
+
+/* Modals */
+
+.swal-overlay---show-modal {
+    opacity: 0.8;
+}
+
+.swal-modal {
+    width: 80%;
+}
+
+.swal-button {
+    background-color: transparent;
+    color: $brand-brown-light;
+    border: 2px solid $brand-brown-light;
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    padding: 0;
+}
+
+.swal-footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.swal-text {
+    padding: $space-m;
+}
