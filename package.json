@@ -9,6 +9,12 @@
   "dependencies": {
     "blendid": "^4.4.3",
     "normalize-scss": "^7.0.1",
-    "sweetalert": "^2.1.0"
-  }
+    "sweetalert": "^2.1.0",
+    "snyk": "^1.104.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
