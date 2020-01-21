@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "blendid": "^4.4.3",
+    "blendid": "^4.5.0",
     "normalize-scss": "^7.0.1",
     "sweetalert": "^2.1.0"
   }
