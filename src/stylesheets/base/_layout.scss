@@ -21,7 +21,7 @@
 }
 
 .text-box {
-    width: 96%;
+    width: 90%;
     padding: $space-xs $space-m $space-xs $space-m;
     border: 1px solid $brand-green-primary;
 }
@@ -42,7 +42,8 @@
 
 .split-column {
     padding-top: $space-l;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     @include media-above($break-medium) {
         display: inline-flex;
     }
