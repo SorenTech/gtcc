@@ -26,6 +26,16 @@
     border: 1px solid $brand-green-primary;
 }
 
+.news-box {
+    @extend .text-box;
+    margin-left: 65%;
+    margin-right: 36px;
+    margin-top: -28vh;
+    background: $brand-silver;
+    opactiy: 0.85;
+    max-width: 30%;
+}
+
 .text-box-main {
     padding: $space-s;
 }
