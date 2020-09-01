@@ -28,14 +28,20 @@
 
 .news-box {
     @extend .text-box;
-    margin-left: 65%;
-    margin-right: 36px;
-    margin-top: -28vh;
+    margin-left: 45%;
+    margin-right: 9px;
     background: $brand-silver;
     opacity: 0.85;
-    max-width: 30%;
-    max-height: 95%;
+    max-width: 45%;
+    max-height: 50%;
     overflow: auto;
+    padding: 9px;
+    @include media-above($break-medium) {
+        margin-top: -28vh;
+        max-height: 85%;
+        margin-left: 60%;
+        max-width: 30%;
+    }
 }
 
 .text-box-main {
