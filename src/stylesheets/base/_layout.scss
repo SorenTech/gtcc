@@ -170,9 +170,14 @@ footer {
   margin-left: 0%;
 }
 .csslider > ul {
-  position: relative;
-  width: 916px;
-  height: 483px;
+    position: relative;
+    @include media-above(break-medium){
+        width: 67vw;
+    }
+    @include media-below(break-medium){
+        width: 100vw;
+    }
+  height: 75vh;
   z-index: 1;
   font-size: 0;
   line-height: 0;
