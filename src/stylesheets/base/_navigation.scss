@@ -37,9 +37,8 @@ a.nav-title {
 
 .upper-button {
   @include media-above($break-medium) {
-    position: absolute;
-    top: 21px;
-    left: 45%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0;
   }
   @include media-below($break-medium) {
@@ -51,10 +50,9 @@ a.nav-title {
 
 .lower-button {
   @include media-above($break-medium) {
-    position: absolute;
-    top: 75px;
-    left: 45%;
-    margin-top: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   @include media-below($break-medium) {
     position: fixed;
@@ -101,7 +99,7 @@ a.lower-circle {
   @include media-above($break-medium) {
     position: relative;
     background-color: transparent;
-    margin-top: -58px;
+    margin-top: -45px;
     margin-bottom: $space-xl;
   }
 }

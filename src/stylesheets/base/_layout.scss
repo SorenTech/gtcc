@@ -21,9 +21,30 @@
 }
 
 .text-box {
-    width: 96%;
+    width: 90%;
     padding: $space-xs $space-m $space-xs $space-m;
     border: 1px solid $brand-green-primary;
+}
+
+.news-box {
+    @extend .text-box;
+    margin-left: 45%;
+    margin-right: 9px;
+    background: $brand-silver;
+    opacity: 0.85;
+    max-width: 45%;
+    max-height: 50%;
+    overflow: auto;
+    padding: 9px;
+    @include media-above($break-medium) {
+        margin-top: -25vh;
+        max-height: 65%;
+        margin-left: 60%;
+        max-width: 30%;
+    }
+    @include media-above($break-large) {
+        max-height: 85%;
+    }
 }
 
 .text-box-main {
@@ -32,7 +53,8 @@
 
 .split-column {
     padding-top: $space-l;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     @include media-above($break-medium) {
         display: inline-flex;
     }
@@ -104,7 +126,7 @@ footer {
 .calendar-stack {
     position: relative;
     display: inline-block;
-    width: (13em / 14);
+    width: (28em / 14);
     height: 1em;
     margin: $space-m;
     margin-top: $space-l;
@@ -118,11 +140,11 @@ footer {
 .calendar-day {
     top: (18em / 8);
     left: (8em / 8);
-    width: (19em / 8);
+    width: (24em / 8);
     height: (7em / 8);
     line-height: (14em / 14);
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 /* CSS Slider by Damian Drygiel, github.com/drygiel/cssslider */

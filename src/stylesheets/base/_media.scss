@@ -4,6 +4,8 @@
     margin-left: $space-xl;
     width: 18vw;
     height: 20vw;
+    min-height: 236px;
+    min-width: 212px;
 }
 
 .bio-img {
@@ -28,19 +30,18 @@
 }
 
 .banner-img {
-    height: 50vh;
+    height: 75vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    padding-top: $space-l;
 }
 
 .logo-container {
     width: 275px;
-    background-color: $brand-gray-light;
     opacity: 0.85;
-    position: absolute;
-    top: $space-l;
-    left: $space-l;
+    margin-left: auto;
+    margin-right: auto;
     @include media-below($break-small) {
         display: none;
     }
@@ -48,8 +49,7 @@
 
 .logo-img {
     @extend .center;
-    width: 90%;
-    margin: 5%;
+    width: 100%;
 }
 
 .sponsor-img {
