@@ -28,23 +28,10 @@
 
 .news-box {
     @extend .text-box;
-    margin-left: 45%;
-    margin-right: 9px;
-    background: $brand-silver;
-    opacity: 0.85;
-    max-width: 45%;
-    max-height: 50%;
+    margin-left: 18px;
+    max-width: 25vw;
     overflow: auto;
-    padding: 9px;
-    @include media-above($break-medium) {
-        margin-top: -25vh;
-        max-height: 65%;
-        margin-left: 60%;
-        max-width: 30%;
-    }
-    @include media-above($break-large) {
-        max-height: 85%;
-    }
+    display: inline-block;
 }
 
 .text-box-main {
