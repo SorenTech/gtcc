@@ -29,9 +29,14 @@
 .news-box {
     @extend .text-box;
     margin-left: 18px;
-    max-width: 25vw;
     overflow: auto;
     display: inline-block;
+    @inclue media-above($break-medium) {
+        max-width: 25vw;
+    }
+    @include media-below($break-medium) {
+        max-width: 90vw;
+    }
 }
 
 .text-box-main {
