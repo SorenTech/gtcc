@@ -107,6 +107,17 @@ footer {
     display: inline-flex;
 }
 
+#contact-main {
+    margin-right: $space-m;
+}
+
+#footer-links {
+    display: inline-flex;
+    @include media-below($break-medium) {
+        margin-top: $space-l;
+    }
+}
+
 #credits {
     margin-top: $space-xl;
 }
