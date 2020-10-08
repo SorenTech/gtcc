@@ -31,9 +31,7 @@
     margin-left: 18px;
     overflow: auto;
     display: inline-block;
-    @inclue media-above($break-medium) {
-        max-width: 25vw;
-    }
+    max-width: 25vw;
     @include media-below($break-medium) {
         max-width: 90vw;
     }
