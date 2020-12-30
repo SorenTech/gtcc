@@ -28,10 +28,11 @@
 
 .news-box {
     @extend .text-box;
-    margin-left: 18px;
+    margin-left: 36px;
     overflow: auto;
     display: inline-block;
-    max-width: 25vw;
+    max-width: 30vw;
+    margin-right: 2.5%;
     @include media-below($break-medium) {
         max-width: 90vw;
     }
@@ -167,6 +168,7 @@ footer {
   max-width: 640px;
   height: 75vh;
   max-height: 396px;
+  margin-left: 5%;
 }
 .csslider > input {
   display: none;
