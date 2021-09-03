@@ -1,5 +1,5 @@
 {% extends "layouts/application.html" %}
-{% block title %}The Greater Tiverton Community Chorus{% endblock %}
+{% block title %}Greater Tiverton Community Chorus{% endblock %}
 {% block head %}
 <meta name="description" content="A community chorus serving Tiverton, Little Compton, Westport, Portsmouth, Bristol, the Soutcoast area.">
 <meta itemprop="name" content="The Greater Tiverton Community Chorus">
@@ -9,14 +9,41 @@
 <link rel="preconnect" href="https://www.youtube.com/">
 {% endblock %}
 {% block content %}
-<div id="front-page-header-banner" class="banner-img" style="background-image: url(/images/winter-concert-2019.jpg); background-position: top;">
-  <div class="logo-container">
-    <img class="logo-img" title="The Greater Tiverton Community Chorus" alt="The Greater Tiverton Community Chorus" src="/images/GTCC-highres.jpg" />
-  </div>
-  <div id="news" class="news-box">
-    <h3>Congrats, Heather!</h3>
-    <p>The Greater Tiverton Communty Chorus proudly announces that our pianist, Heather Niemi Savage, has won second place in the 2020 American Prize for Composition (pops/light music category, professional division). The winning pice can be heard <a title="Heather Naomi Savage" href="https://heatherniemisavage.com/product/daughter-of-the-stars-score-parts-digital-edition-pdf/" target="_blank">on her website</a>. We have commissioned her to write a piece for us in celebration of our 40th season singing.</p>
-  </div>
+<div id="header">
+<div class="csslider">
+    <input type="radio" name="slides" id="slides_1" checked />
+    <input type="radio" name="slides" id="slides_2" />
+    <input type="radio" name="slides" id="slides_3" />
+    <input type="radio" name="slides" id="slides_4" />
+    <ul>
+        <li style="background-image: url(/images/conducting_may18-1.jpg)"> </li>
+        <li style="background-image: url(/images/singing_may18-1.jpg)"></li>
+        <li style="background-image: url(/images/singing_spring19-1.jpg)"></li>
+        <li style="background-image: url(/images/rehearsal_web.jpg)"></li>
+    </ul>
+    <div class="arrows">
+        <label for="slides_1"></label>
+        <label for="slides_2"></label>
+        <label for="slides_3"></label>
+        <label for="slides_4"></label>
+    </div>
+    <div class="navigation">
+        <div>
+            <label for="slides_1"></label>
+            <label for="slides_2"></label>
+            <label for="slides_3"></label>
+            <label for="slides_4"></label>
+        </div>
+    </div>
+</div>
+<div class="logo-container">
+  <img class="logo-img" title="The Greater Tiverton Community Chorus" alt="The Greater Tiverton Community Chorus" src="/images/gtcc-logo_web.png" />
+</div>
+<div id="news" class="news-box">
+    <p class="center-text" style="padding: 5%;">We are choral enthusiasts from Tiverton, LC, Westport, Fall River, and Aquidneck Island and from wherever you are.</p> 
+    <p class="center-text" style="padding: 5%;">Since our first concert in December of 1980, we have performed almost <a href="/past-concerts">150 concerts</a>.</p>
+    <p class="center-text" style="padding: 5%;">Join us and support us as we support our communities in <a href="/join">service and song</a>.</p>
+</div>
 </div>
 <nav id="home-nav">
   <div class="nav-bar">
@@ -29,11 +56,6 @@
     </div>
   </div>
 </nav>
-<div class="text-box center" style="border: solid 4px red;">
-  <h2 style="text-align: center">GTCC Cancelling Spring Concert</h2>
-  <p style="text-align: center">Following the CDC and local Board of Health guidelines, GTCC has chosen to cancel its Spring Concert. We are eager to perform the Magnificat we have been rehearsing with an orchestra, and plan to do so at our next spring concert. This decision is out of an abundance of caution to protect our membership and our wonderful audience community.</p>
-  <p style="text-align: center">Please stay in touch with GTCC through our Facebook page and our website. After this crisis passes, we look forward to creating ways to celelbrate our 40th season! No matter when we come together again, we will only have more reason to celebrate.</p>
-</div>
 <div id="listen" class="container">
   <div id="concert" class="text-box">
     <div id="calendar" class="calendar-stack fa-5x">
@@ -106,7 +128,7 @@
         <h3>Heather Niemi Savage, Collaborative Accompanist</h3>
         <img src="/images/HeatherPic.jpg" title="Heather Savage" alt="Heather Savage, Interim Accompanist for the Greater Tiverton Community Chorus"
           class="bio-img" />
-        <p>We welcome Heather Savage as interim accompanist. We bid a fond farewell to Melissa who’s life journey takes her out of state. Heather Niemi Savage grew up in Rhode Island, graduating from South Kingstown High School and the University of Rhode Island. She has extensive experience as a collaborative pianist which includes accompanying vocal and instrumental soloists and choral groups, performing in chamber ensembles, and playing in musical theater pits.</p>
+        <p>We welcome Heather Savage as our collaboarative accompanist. She has composed a piece in celebration of our 40th singing season. Heather Niemi Savage grew up in Rhode Island, graduating from South Kingstown High School and the University of Rhode Island. She has extensive experience as a collaborative pianist which includes accompanying vocal and instrumental soloists and choral groups, performing in chamber ensembles, and playing in musical theater pits.</p>
         <ul class="inline-list">
           <li class="nav-item">
             <details>
@@ -156,16 +178,18 @@
 </div>
 <div id="about" class="container">
   <div class="text-container">
-    <p class="center-text">We are a group of choral enthusiasts from Tiverton, Little Compton, Westport, Fall River,
-      Aquidneck Island, and beyond.
-      We gather to sing, promote choral music throughout our communities, and engage in community service. Since our
-      first
-      concert in December of 1980 we have been led by five wonderful directors, involved countless members, and
-      performed
-      almost 150 concerts. We hope you’ll consider joining us, whether to listen or to sing along!</p>
+    <p class="center-text">Stay tuned for new Notes from the Chorus!</p>
   </div>
 </div>
-<!--
+<div id="testimony-container" class="container">
+  <img id="testimony-img" class="testimony-img" title="Sally Ann Ledbetter" alt="Sally Ann Ledbetter, Chorus President" src="/images/SallyAnn2020.jpg" />
+  <div id="testimony-inner" class="text-box">
+    <div id="testimony-text" class="text-container">
+      <p class="center-text">"Singing is the breath of the soul."</p>
+      <p class="center-text">-Sally Ann Ledbetter, Chorus President</p>
+    </div>
+  </div>
+</div>
 <div id="testimony-container" class="container">
   <img id="testimony-img" class="testimony-img" title="Suzanne Rosevear" alt="Suzanne Rosevear, Chorus Member" src="/images/suzanne-2_web_small.jpg" />
   <div id="testimony-inner" class="text-box">
@@ -174,16 +198,6 @@
         wonderful people, a way to give back
         to our community. It’s a family of like minded, kind hearted, talented people."</p>
       <p class="center-text">-Suzanne Rosevear, Chorus Member</p>
-    </div>
-  </div>
-</div>
--->
-<div id="testimony-container" class="container">
-  <img id="testimony-img" class="testimony-img" title="Sally Ann Ledbetter" alt="Sally Ann Ledbetter, Chorus President" src="/images/SallyAnn2020.jpg" />
-  <div id="testimony-inner" class="text-box">
-    <div id="testimony-text" class="text-container">
-      <p class="center-text">"Singing is the breath of the soul."</p>
-      <p class="center-text">-Sally Ann Ledbetter, Chorus President</p>
     </div>
   </div>
 </div>

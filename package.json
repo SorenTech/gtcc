@@ -10,5 +10,8 @@
     "blendid": "^4.4.3",
     "normalize-scss": "^7.0.1",
     "sweetalert": "^2.1.0"
-  }
+  },
+    "resolutions": {
+        "graceful-fs": "^4.2.2"
+    }
 }

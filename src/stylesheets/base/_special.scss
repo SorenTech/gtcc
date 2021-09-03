@@ -1,5 +1,14 @@
 /* home page */
 
+#header {
+    @include media-above($break-medium) {
+        display: inline-flex;
+    }
+    @include media-below($break-medium) {
+        display: inline-block;
+    }
+}
+
 #concert {
     @include media-above($break-medium) {
         display: inline-flex;
